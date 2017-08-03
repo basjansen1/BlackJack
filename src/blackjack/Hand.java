@@ -63,7 +63,6 @@ public class Hand {
 			if (card.getCardValue() == 1 && (totalvalue + 11) < 22) {
 				totalvalue += 11;
 			}
-
 			// Dit is zodat de heren, boeren, en vrouwern kaart ook voor 10 punten tellen.
 			else if (card.getCardValue() == 11 || card.getCardValue() == 12 || card.getCardValue() == 13) {
 				totalvalue += 10;
