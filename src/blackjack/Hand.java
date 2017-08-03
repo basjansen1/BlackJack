@@ -60,7 +60,6 @@ public class Hand {
 		int totalvalue = 0;
 		
 		for (Card card : hand) {
-			
 			if (card.getCardValue() == 1 && (totalvalue + 11) < 22) {
 				totalvalue += 11;
 			}
